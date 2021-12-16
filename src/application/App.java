@@ -7,7 +7,8 @@ public class App {
 		
 		double celsius = (fahrenheit - 32) * 5.0 / 9.0;
 		
-		System.out.println(fahrenheit + " degrees Fahrenheit is " + celsius + " degrees celsius.");
+		//System.out.println(fahrenheit + " degrees Fahrenheit is " + celsius + " degrees celsius.");
+		System.out.printf("%.2f degrees Fahrenheit is %.2f degrees celsius.\n", fahrenheit, celsius);
 		
 		System.out.print("Hello");
 		
